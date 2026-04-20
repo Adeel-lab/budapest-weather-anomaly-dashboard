@@ -3,8 +3,7 @@
 A live weather anomaly detection dashboard for Budapest, built with Python and Streamlit.  
 It pulls **6+ years of hourly weather data** (2020–present) from the Open-Meteo API and flags statistically unusual weather events using **Z-score analysis**.
 
-🔗 **[Live App →]([https://your-app-url.streamlit.app](https://budapest-weather-anomaly-dashboardz.streamlit.app/))**  
- 
+🔗 **[Live App →](https://budapest-weather-anomaly-dashboardz.streamlit.app/)**
 
 ---
 
@@ -72,26 +71,28 @@ streamlit run app.py
 ---
 
 ## 📦 Requirements
+
+```
 streamlit
 openmeteo-requests
 requests-cache
 retry-requests
 pandas
 numpy
-
+```
 
 ---
 
 ## 📁 Project Structure
 
-
+```
 budapest-weather-anomaly-dashboard/
 │
-├── app.py # Streamlit dashboard
-├── Budapest_Weather_Anomaly_Detection.ipynb # Full analysis notebook
-├── requirements.txt # Dependencies
+├── app.py                                        # Streamlit dashboard
+├── Budapest_Weather_Anomaly_Detection.ipynb      # Full analysis notebook
+├── requirements.txt                              # Dependencies
 └── README.md
-
+```
 
 ---
 
